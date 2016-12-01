@@ -1,4 +1,4 @@
-# dotsFiles
+# My dot files
 My configs on Linux
 
 * [Conky](https://github.com/JuanjoSalvador/dotFiles/blob/master/.conkyrc) [Minimal Conky conf]
