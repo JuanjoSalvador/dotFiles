@@ -1,0 +1,38 @@
+# Deus Vult Theme 
+# by Juanjo Salvador
+# Personal website 	http://juanjosalvador.es		
+#
+# Element		           Color 1	Color 2
+
+background		       = default	default
+frame			           = white		default
+window_title	       = white		default
+directory		         = white		default	bold
+selected_directory	 = white		red	bold
+playlist		         = white		red	bold
+selected_playlist	   = white		red	bold
+file			           = white		default
+selected_file		     = red		  default
+marked_file		       = red	  	default	bold
+marked_selected_file = red		  default	bold
+info			           = red		  default	bold
+status			         = white		default
+title			           = white		default	bold
+state			           = white		default	bold
+current_time		     = white		default	bold
+time_left		         = white		default	bold
+total_time		       = white		default	bold
+time_total_frames	   = white		default
+sound_parameters	   = white		default	bold
+legend			         = white		default
+disabled		         = red		  default	bold
+enabled			         = white		default	bold
+empty_mixer_bar		   = white		default
+filled_mixer_bar	   = black		default
+empty_time_bar		   = white		default
+filled_time_bar		   = black		default
+entry			           = white		default
+entry_title		       = black		default
+error			           = red		  default	bold
+message			         = red		  default	bold
+plist_time		       = white		default	bold
