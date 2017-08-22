@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+        "spec": "/tmp/d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117525-7704-h8hk7j.57s431sjor"
+    ]
+  ],
+  "_from": "../d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+  "_id": "markdown-pdf@1.5.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/markdown-pdf",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+    "spec": "/tmp/d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+  "_shasum": "1bf937ce54fa5e9f7de091ce5d47781862dd11a0",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117525-7704-14ewu6a.odzs6skyb9/package.tgz",
+  "_where": "/tmp/apm-install-dir-117525-7704-h8hk7j.57s431sjor",
+  "activationCommands": {
+    "atom-workspace": "markdown-pdf:convert"
+  },
+  "author": {
+    "name": "Travis Jacobs",
+    "url": "github.com/travs"
+  },
+  "bugs": {
+    "url": "https://github.com/travs/markdown-pdf/issues"
+  },
+  "dependencies": {
+    "html-pdf": "2.0.x",
+    "less": "^1.7.0"
+  },
+  "description": "Convert markdown to pdf, png or jpeg on the fly.",
+  "devDependencies": {
+    "temp": "^0.8.3"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/travs/markdown-pdf#readme",
+  "license": "MIT",
+  "main": "./lib/markdown-pdf",
+  "name": "markdown-pdf",
+  "optionalDependencies": {},
+  "readme": "## [Markdown to PDF](https://atom.io/packages/markdown-pdf)\n\nConvert markdown-formatted documents to pdf, png or jpeg files without ever leaving Atom.\n\n### Usage\nJust focus the window containing your markdown file and use the `convert` command.\n\nThe output PDF will be styled similar to the github-flavored markdown on github.com, as well as any user styles you have added. It will appear in the same directory as the Markdown you are converting, with the same name and a different extension.\n\n![markdown-pdf](https://raw.githubusercontent.com/travs/markdown-pdf/master/assets/testpdf.png)\n\nYou can set parameters in the package's settings, such as page size, orientation, and output format (pdf, png or jpeg).\n\n### How it works\n\nThe HTML provided by running the markdown through [marked](https://www.npmjs.org/package/marked) is prepended with the css from the [markdown-preview atom package](https://github.com/atom/markdown-preview). The syntax-highlights styling is pulled from the user's currently-active theme and added in the same way.\n\nThis HTML+CSS is then fed to [html-pdf](https://www.npmjs.org/package/html-pdf), which outputs the final image (pdf, png or jpeg) doc.\n\nThe package has dependencies on [tree-view](https://github.com/atom/tree-view) and [markdown-preview](https://github.com/atom/markdown-preview), but since these are included in the default atom installation, you probably won't have to worry about that.\n\n#### Heart it? Hate it?\nFeel free to run `apm star 'markdown-pdf'` or give some feedback :smile:\n\n##### Special thanks to these folks\n\n- [@schmurphy](https://github.com/NKMR6194): [#11](https://github.com/travs/markdown-pdf/pull/11)\n- [@NKMR6194](https://github.com/NKMR6194): [#51](https://github.com/travs/markdown-pdf/pull/51), [#83](https://github.com/travs/markdown-pdf/pull/83)\n- [@Nicnl](https://github.com/Nicnl): [#28](https://github.com/travs/markdown-pdf/pull/28)\n- [@brianchung808](https://github.com/brianchung808): [#34](https://github.com/travs/markdown-pdf/pull/34)\n- [@hdmi](https://github.com/hdmi): [#53](https://github.com/travs/markdown-pdf/pull/53)\n- [@CumpsD](https://github.com/CumpsD): [#59](https://github.com/travs/markdown-pdf/pull/59)\n- [@pydolan](https://github.com/pydolan): [#72](https://github.com/travs/markdown-pdf/pull/72), [#74](https://github.com/travs/markdown-pdf/pull/74)\n- [@Galadirith](https://github.com/Galadirith): [#88](https://github.com/travs/markdown-pdf/pull/88)\n\n##### My other Atom package\n\nIf you're using Atom to develop Atom, you could use a [devtools upgrade](https://github.com/travs/dev-tools-themes).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travs/markdown-pdf.git"
+  },
+  "version": "1.5.4"
+}

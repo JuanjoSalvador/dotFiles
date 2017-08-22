@@ -1,0 +1,61 @@
+.syntax--markup,
+.syntax--gfm {
+  color: white;
+
+  &.syntax--bold {
+    font-weight: bold;
+    color: @hue-1;
+  }
+
+  &.syntax--changed {
+    color: @hue-1;
+  }
+
+  &.syntax--deleted {
+    color: @hue-5-2;
+  }
+
+  &.syntax--italic {
+    font-style: italic;
+    color: @hue-1;
+  }
+
+  &.syntax--raw {
+    color: @hue-4;
+  }
+
+  &.syntax--heading {
+    color: @hue-3;
+  }
+
+  &.syntax--inserted {
+    color: @hue-6;
+  }
+
+  &.syntax--list {
+    color: @hue-5-2;
+  }
+
+  &.syntax--quote {
+    color: @hue-2;
+  }
+
+  &.syntax--raw.syntax--inline {
+    color: @hue-6;
+  }
+
+  &.syntax--link {
+    color: @hue-3;
+    text-decoration: underline;
+  }
+
+  &.syntax--variable {
+    &.syntax--ordered.syntax--list.syntax--gfm {
+      color: @hue-3;
+    }
+
+    &.syntax--unordered.syntax--list.syntax--gfm {
+      color: @hue-3;
+    }
+  }
+}

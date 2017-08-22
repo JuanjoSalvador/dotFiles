@@ -1,0 +1,40 @@
+# Wine theme
+# by Juanjo Salvador
+#
+# Personal website 	http://juanjosalvador.me
+# Email			juanjosalvador@netc.eu
+		
+# Element		Color 1		Color 2
+
+background		= white        	default
+frame			= white		default
+window_title		= red		default
+directory		= white		default	bold
+selected_directory	= white		red	bold
+playlist		= white		red	bold
+selected_playlist	= white		red	bold
+file			= white		default
+selected_file		= red		default
+marked_file		= red		default	bold
+marked_selected_file	= red		default	bold
+info			= red		default	bold
+status			= white		default
+title			= white		default	bold
+state			= white		default	bold
+current_time		= white		default	bold
+time_left		= white		default bold
+total_time		= red		default	bold
+time_total_frames	= white		default
+sound_parameters	= red           default bold
+legend			= white		default
+disabled		= red		default	bold
+enabled			= white		default	bold
+empty_mixer_bar		= white		default
+filled_mixer_bar	= white		default
+empty_time_bar		= white		default
+filled_time_bar		= white		red
+entry			= white		default
+entry_title		= black		default
+error			= red		default	bold
+message			= red		default	bold
+plist_time		= white		default	bold

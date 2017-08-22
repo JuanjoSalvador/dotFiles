@@ -1,0 +1,55 @@
+.syntax--ruby {
+  &.syntax--source {
+    color: @hue-2;
+  }
+
+  &.syntax--entity.syntax--name.syntax--type.syntax--class {
+    color: @hue-5;
+  }
+
+  &.syntax--entity.syntax--other.syntax--inherited-class {
+    color: @hue-5;
+  }
+
+  &.syntax--variable.syntax--other {
+    color: @hue-3;
+  }
+
+  &.syntax--support.syntax--class {
+    color: @hue-5;
+  }
+
+  .syntax--constant {
+    &.syntax--other.syntax--symbol {
+      color: @hue-1-2;
+    }
+  }
+
+  .syntax--punctuation {
+    color: white;
+
+    &.syntax--definition.syntax--constant {
+      color: @hue-1-2;
+    }
+
+    &.syntax--definition.syntax--variable {
+      color: @hue-3;
+    }
+
+    &.syntax--definition.syntax--comment{
+      color: @grey4;
+    }
+  }
+
+  &.syntax--keyword.syntax--other {
+    color: @hue-1;
+  }
+
+  &.syntax--with-arguments {
+    color: white;
+  }
+
+  &.syntax--name {
+    color: @hue-2;
+  }
+}

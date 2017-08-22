@@ -1,0 +1,71 @@
+conky.config = {
+-- Minimal Conky conf
+-- By Juanjo Salvador (http://juanjosalvador.es)
+
+	background = false,
+	use_xft = true,
+	font = 'Sans:size=8',
+	xftalpha = 1,
+	update_interval = 1,
+	total_run_times = 0,
+	own_window = true,
+	own_window_title = 'conky',
+	own_window_type = 'normal',
+	own_window_transparent = true,
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	own_window_argb_visual = true,
+	own_window_argb_value = 128,
+	double_buffer = true,
+	minimum_width = 100, minimum_height = 100,
+	maximum_width = 220,
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = false,
+	default_color = 'black',
+	default_shade_color = '#f40',
+	default_outline_color = 'white',
+	alignment = 'top_left',
+	gap_x = 10,
+	gap_y = 10,
+	no_buffers = true,
+	uppercase = false,
+	cpu_avg_samples = 4,
+	override_utf8_locale = true,
+
+};
+
+conky.text = [[
+
+${font sans-serif:bold:size=8}${color eee}SISTEMA ${hr 2}${font sans-serif:normal:size=8}
+Distro: ${exec lsb_release -d | cut -f 2}
+Kernel: ${exec uname -s} ${exec uname -r}
+Uptime: ${exec uptime -p | cut -c 3-}
+
+${font sans-serif:bold:size=8}${color eee}PROCESADORES ${hr 2}${font sans-serif:normal:size=8}
+CPU0: ${cpu cpu0}%
+${cpubar cpu0}
+CPU1: ${cpu cpu1}%
+${cpubar cpu1}
+CPU2: ${cpu cpu2}%
+${cpubar cpu2}
+CPU3: ${cpu cpu3}%
+${cpubar cpu3}
+Temperatura ${execi 8 sensors | grep 'Core 0' | cut -c17-23 | sed '/^$/d'}
+
+${font sans-serif:bold:size=8}${color eee}RED ${hr 2}
+${font sans-serif:normal:size=8}Velocidad de bajada
+${downspeed wlan0} ${alignr}${downspeedgraph wlan0 16,60 789E2D A7CC5C}
+${font sans-serif:normal:size=8}Velocidad de subida
+${upspeed wlan0} ${alignr}${upspeedgraph wlan0 16,60 789E2D A7CC5C}
+
+${font sans-serif:bold:size=8}${color eee}MEMORIA ${hr 2}
+${font sans-serif:normal:size=8}RAM $alignc $mem / $memmax $alignr $memperc%
+$membar
+
+${font sans-serif:bold:size=8}${color eee}DISCOS ${hr 2}
+${font sans-serif:normal:size=8}Raíz $alignc ${fs_used /} / ${fs_size /} $alignr${fs_used_perc /}%
+${fs_bar /}
+Home $alignc ${fs_used /home/juanjo} / ${fs_size /home/juanjo} $alignr ${fs_used_perc /home/juanjo}%
+${fs_bar /home/juanjo}
+]];

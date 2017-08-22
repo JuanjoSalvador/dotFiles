@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'C++ Generator'
+      'submenu': [
+        {
+          'label':   'Generate C++ Files',
+          'command': 'cpp-generator:generate-c++-files'
+        }
+      ]
+    ]
+  }
+]

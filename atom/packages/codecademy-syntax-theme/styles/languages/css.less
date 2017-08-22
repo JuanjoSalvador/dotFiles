@@ -1,0 +1,52 @@
+/* Universal Styles */
+.syntax--css,
+.syntax--scss {
+	color: white;
+
+	&.syntax--other.syntax--attribute-name {
+		color: @hue-6;
+	}
+
+	&.syntax--name.syntax--tag {
+		color: @hue-5;
+	}
+
+	&.syntax--comment {
+		color: @grey4;
+	}
+
+	&.syntax--string.syntax--quoted {
+		color: @hue-4;
+	}
+
+	&.syntax--variable {
+		&.syntax--less,
+		&.syntax--scss {
+			color: @hue-3;
+		}
+
+		&.syntax--parameter.syntax--misc {
+			color: @hue-4;
+		}
+	}
+
+	&.syntax--punctuation.syntax--definition.syntax--constant {
+		color: @hue-1-2;
+	}
+
+	&.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+		color: white;
+
+		.syntax--punctuation.syntax--definition.syntax--entity {
+			color: white;
+		}
+	}
+
+	&.syntax--meta.syntax--property-value {
+		color: white;
+	}
+
+	&.syntax--constant.syntax--other.syntax--color.syntax--rgb-value {
+		color: @hue-1-2;
+	}
+}

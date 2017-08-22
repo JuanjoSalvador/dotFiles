@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+        "spec": "/tmp/d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117711-29882-1ybgcxc.r5x9gj5rk9"
+    ]
+  ],
+  "_from": "../d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+  "_id": "codecademy-syntax-theme@1.1.2",
+  "_inCache": true,
+  "_location": "/codecademy-syntax-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+    "spec": "/tmp/d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+  "_shasum": "9ab410a8a5efcf6f81ba527355b442dcaf4e9d6c",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117711-29882-1k0ucs3.zs7q7x2yb9/package.tgz",
+  "_where": "/tmp/apm-install-dir-117711-29882-1ybgcxc.r5x9gj5rk9",
+  "bugs": {
+    "url": "https://github.com/jonsamp/codecademy-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Official Codecademy syntax theme.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jonsamp/codecademy-syntax#readme",
+  "keywords": [
+    "codecademy",
+    "codeacademy",
+    "codecademy.com",
+    "dark",
+    "pastel",
+    "blue",
+    "navy",
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "codecademy-syntax-theme",
+  "optionalDependencies": {},
+  "readme": "# Codecademy Syntax Theme\n\nCodecademy syntax colors for Atom Editor.\n\n![Screenshot 1](https://dl.dropboxusercontent.com/s/xxs4k66o33mtqjm/codecademy-syntax-js.png)\n\n![Screenshot 2](https://dl.dropboxusercontent.com/s/du5vn5ijp4ky94j/codecademy-syntax-html.png)\n\n![Screenshot 3](https://dl.dropboxusercontent.com/s/9hcfayhdsgxfysx/codecademy-syntax-css.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonsamp/codecademy-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.2",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
